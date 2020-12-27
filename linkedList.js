@@ -28,7 +28,7 @@ class LinkedList {
     return currentNode;
   }
 
-  getElementAt(index) {
+  getNodeAt(index) {
     if (index < 0 || index > this.size - 1) {
       return undefined;
     } else {
