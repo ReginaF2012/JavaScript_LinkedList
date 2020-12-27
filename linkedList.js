@@ -6,9 +6,9 @@ class ListNode {
 }
 
 class LinkedList {
-  constructor(head = null) {
-    this.head = head;
-    this.size = this.head ? 1 : 0;
+  constructor() {
+    this.head = null;
+    this.size = 0;
   }
 
   clear() {
