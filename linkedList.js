@@ -103,7 +103,7 @@ class LinkedList {
     }
   }
 
-  removeElement(data) {
+  removeNode(data) {
     let currentNode = this.head;
     let previousNode;
     while (!!currentNode) {
